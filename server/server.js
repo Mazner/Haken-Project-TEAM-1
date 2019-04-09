@@ -7,8 +7,7 @@ var ObjectId = require('mongodb').ObjectID;
 
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = "mongodb+srv://farra:farra@cluster0-8xj2n.mongodb.net/test?retryWrites=true"
- 
+const uri = 
 
 MongoClient.connect(uri, (err, client) => {
     if (err) return console.log(err)
